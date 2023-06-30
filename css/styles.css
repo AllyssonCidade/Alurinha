@@ -1,0 +1,380 @@
+
+body{  
+    background-color: #F2F5F7;
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+
+/* Cabeçalho principal */
+.cabecalhoPrincipal{
+    background-color: #fafafa;
+}
+
+.cabecalhoPrincipal .container{
+    display: flex;
+    margin: 0 auto;
+    padding: 10px;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+.cabecalhoPricipal-titulo a{
+    text-decoration: none;
+    font-size: 2.2em;
+    font-weight: bolder;
+    color: black;
+}
+
+.cabecalhoPrincipal-nav{
+    display: flex;
+    justify-content: end;
+    gap: .5vw;
+    align-items:center;
+}
+
+.cabecalhoPrincipal-nav-link{
+    background-color: #fafafa;
+    border: 1px solid;
+    border-radius: 5px;
+    color: rgb(102, 100, 100);
+    padding: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 10;
+}
+
+/* Cursos */
+
+.cursos{
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 0 auto;
+    width: 80vw;
+    margin-bottom: 20px;
+}
+
+.cursos--titulo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+ }
+
+.cursos--cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vw;
+}
+
+.cursos--card{
+    display: flex;
+    flex-basis: 23%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fafafa;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.397);
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 1px;
+}
+
+.cursos--card:hover{
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.397);
+
+}
+
+.cursos--card:active{
+    background-color: #f7f6f6;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
+}
+.cursos__card__img{
+    width: 40p;
+    height: 40px;
+    margin: 5px;
+    
+}
+.cursos--card span{
+   font-size: 15px;
+}
+
+
+/* sobre o alurinha */
+
+.sobre{
+    background-color: rgba(17, 0, 255, 0.479);
+    padding: 20px;
+}
+
+.sobre .container{
+    display: flex;
+    margin: 10px auto;
+    width: 80vw;
+    gap: 2.5vw;
+}
+
+.sobre .container iframe{
+    flex-grow: 1;
+    flex-shrink: 3;
+
+}
+
+.sobre--vantagens{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fafafa;
+    gap: 3vh;
+    flex-grow: 2;
+   
+}
+
+.sobre--vantagens ul{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 2vh;
+    color: #fafafa;
+    flex-grow: 1;
+}
+
+.sobre--vantagens h2{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.btn--cadastro{
+    display: flex;
+    color: #fafafa;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 71, 71, 0.952);
+    border-radius: 5px;
+    border: transparent;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn--cadastro:hover{
+    background-color: rgb(253, 65, 65);
+}
+
+.btn--cadastro:active{
+    background-color: rgb(255, 30, 30);
+}
+
+/* rodape principal*/
+
+.rodapePrincipal--navMap{
+    background-color: rgba(28, 28, 90, 0.918);
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.rodapePrincipal--navMap h3{
+    font-size: 25px;
+    color: #F2F5F7;
+}
+
+.rodapePrincipal-navMap--list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal--navMap--little{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.rodapePrincipal--navMap--link{
+    text-decoration: none;
+    color: #F2F5F7;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.rodapePrincipal--navMap--little h4{
+    margin-bottom: 20px;
+    border-left: 3px solid;
+    padding-left: 5px;
+    padding: 5px;
+}
+
+.list--front h4{
+    color: rgb(12, 116, 12);
+}
+
+.list--back h4{
+    color: rgb(59, 59, 255);
+}
+
+.list--framework h4{
+    color: rgb(106, 32, 175);
+}
+
+.list--bancoDeDados h4{
+    color: rgb(252, 59, 59);
+}
+
+
+.patrocinadores{
+    background-color: #F2F5F7;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    margin-right: 5%;
+    width: 80vw;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.contato p{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.contato--contato{
+    display: flex;
+    
+}
+
+.btn-enviar{
+    background-color: rgba(18, 110, 18, 0.747);
+    color: #F2F5F7;
+    border-radius: 0 5px 5px 0;
+    font-size: 18px;
+    padding: 10px;
+    border: transparent;
+    cursor: pointer;
+}
+
+#txt-enviar{
+    width: 230px;
+}
+
+
+/* responsividade */
+@media(max-width: 768px){
+    .cabecalhoPrincipal .container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+        gap: 5vh;
+        width: 90vw;
+        padding-bottom: 50px;
+    }
+    .cabecalhoPrincipal-nav{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: initial;
+        border: none;
+        gap: 5vh;          
+    }
+    .cabecalhoPrincipal-nav-link{
+        border: none;
+        border-bottom: 1px solid;
+        border-radius: 0;
+        box-shadow: 1px solid;
+    }
+
+    .cursos{
+        margin: 0 auto;
+        padding: 0;
+        width: 90vw;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .cursos--cards{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .cursos-card{
+        width: 100%;
+    }
+
+    .sobre .container{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px auto;
+        width: 80vw;
+        gap: 2.5vw;
+        justify-content: center;
+    }
+    
+    .sobre .container iframe{
+        display: flex;
+        flex-grow: 0;
+        flex-shrink: 3;
+        margin: 0 auto;  
+    }
+
+    .sobre--vantagens{
+        gap: 5vh;
+    }
+
+    .sobre--vantagens--list li{
+        margin-bottom: 2vh;
+    }
+
+    .btn--cadastro{
+        width: 95vw;
+        margin: 0 auto;  
+    }
+    
+    .rodapePrincipal-navMap--list{
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+    }
+    .rodapePrincipal--navMap--little {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .patrocinadores{
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .patrocinadores img{
+        flex-shrink: 3;
+       width: 30%;
+    }
+    
+    .patrocinadores :last-child{
+        width: 80vw;
+    }
+    .contato form{
+        display: flex;
+    }
+    .contato p{
+        margin-bottom: 3px;
+        margin-top: 5vh;
+    }
+    .btn-enviar{
+        width: 10%;
+        flex-grow: 0;
+        flex-shrink: 2;
+    }
+
+    .contato form input{
+        flex-shrink: 1;
+    }
+}
